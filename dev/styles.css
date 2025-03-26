@@ -603,6 +603,12 @@ progress {
   height: auto;
 }
 
+.img-fluid-history {
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11126,7 +11132,7 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #c80101;
+  background-color: #e9ecef;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
